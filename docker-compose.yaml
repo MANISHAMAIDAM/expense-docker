@@ -5,7 +5,7 @@ networks:
     name: expense
 services:
   mysql:
-    image: mysql:v1.0.
+    image: mysql:v1.0
     container_name: mysql # --name mysql
   backend:
     image: backend:v1.0
